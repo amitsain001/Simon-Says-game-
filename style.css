@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    height: 450px;
+    width: 450px;
+    /* background-color: aqua; */
+    margin: auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    height: 13rem;
+    width: 13rem;
+    border : 0.3125rem solid white;
+    /* border-radius: 3rem; */
+   
+}
+
+.box1 {
+    background-color: brown;
+    border-top-left-radius: 100%;
+}
+
+.box2 {
+    background-color: seagreen;
+    border-top-right-radius: 100%;
+}
+
+.box3 {
+    background-color: cornflowerblue;
+    border-bottom-left-radius: 100%;
+}
+
+.box4 {
+    background-color: hotpink;
+    border-bottom-right-radius: 100%;
+}
+
+.gameflash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: yellow;
+}
